@@ -11,8 +11,7 @@ void main(List<String> args) {
   runApp(
     MaterialApp(
       title: 'Pratap',
-      theme: ThemeData(primarySwatch: Colors.amber, fontFamily: 'Mulish'),
-      debugShowCheckedModeBanner: false,
+      
       home:LoginPage(),
     ),
   );
