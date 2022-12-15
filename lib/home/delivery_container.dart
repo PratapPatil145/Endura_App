@@ -26,6 +26,7 @@ class DeliveryContainerBoxes extends StatelessWidget {
           height: 10,
         ),
         Row(
+          //crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Container(
@@ -41,17 +42,18 @@ class DeliveryContainerBoxes extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Container(
-                    child: Image.asset('assets/Two.png'),
-                    padding: EdgeInsets.all(8),
-                    decoration: BoxDecoration(
-                        color: primary.withOpacity(0.1),
-                        border: Border.all(
-                          color: grey.withOpacity(0.2),
-                        ),
-                        borderRadius: BorderRadius.all(Radius.circular(30))),
-                  ),
+                        child: Image.asset('assets/Two.png'),
+                        padding: EdgeInsets.all(8),
+                        decoration: BoxDecoration(
+                            color: primary.withOpacity(0.1),
+                            border: Border.all(
+                              color: grey.withOpacity(0.2),
+                            ),
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(30))),
+                      ),
                       SizedBox(
-                        width: 80,
+                        width: 50,
                       ),
                       Image.asset('assets/ForwardArrow.png'),
                     ],
@@ -66,7 +68,7 @@ class DeliveryContainerBoxes extends StatelessWidget {
                         "Pre Delivery",
                         style: GoogleFonts.mulish(
                             color: grey,
-                            fontSize: 20,
+                            fontSize: 16,
                             fontWeight: FontWeight.bold),
                       ),
                     ],
@@ -86,17 +88,18 @@ class DeliveryContainerBoxes extends StatelessWidget {
                   Row(
                     children: [
                       Container(
-                    child: Image.asset('assets/Four.png'),
-                    padding: EdgeInsets.all(8),
-                    decoration: BoxDecoration(
-                        color: primary.withOpacity(0.1),
-                        border: Border.all(
-                          color: grey.withOpacity(0.2),
-                        ),
-                        borderRadius: BorderRadius.all(Radius.circular(30))),
-                  ),
+                        child: Image.asset('assets/Four.png'),
+                        padding: EdgeInsets.all(8),
+                        decoration: BoxDecoration(
+                            color: primary.withOpacity(0.1),
+                            border: Border.all(
+                              color: grey.withOpacity(0.2),
+                            ),
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(30))),
+                      ),
                       SizedBox(
-                        width: 80,
+                        width: 50,
                       ),
                       Image.asset('assets/ForwardArrow.png'),
                     ],
@@ -111,7 +114,7 @@ class DeliveryContainerBoxes extends StatelessWidget {
                         "During Delivery",
                         style: GoogleFonts.mulish(
                             color: grey,
-                            fontSize: 20,
+                            fontSize: 16,
                             fontWeight: FontWeight.bold),
                       ),
                     ],
@@ -122,7 +125,7 @@ class DeliveryContainerBoxes extends StatelessWidget {
           ],
         ),
         Container(
-          margin: EdgeInsets.fromLTRB(8, 20, 240, 0),
+          margin: EdgeInsets.fromLTRB(8, 20, 100, 0),
           decoration: BoxDecoration(
               border: Border.all(
                 color: grey.withOpacity(0.1),

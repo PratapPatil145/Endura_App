@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:indura_app/cofig/device.dart';
 import 'package:indura_app/colors/colors_font.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -8,15 +9,19 @@ class InputField extends StatelessWidget {
     return Column(
       children: <Widget>[
         SizedBox(
-          height: 20,
+          height: Device.height*0.02,
         ),
         TextField(
           decoration: InputDecoration(
-            contentPadding: EdgeInsets.all(40),
+            contentPadding: EdgeInsets.symmetric(
+              horizontal: Device.height * 0.024,
+              vertical: Device.height * 0.036,
+            ),
             enabledBorder: OutlineInputBorder(
-     borderRadius: BorderRadius.all(Radius.circular(30)),
-     borderSide: BorderSide(width: 1,color: grey.withOpacity(0.1)),
-   ),
+              borderRadius:
+                  BorderRadius.all(Radius.circular(Device.height * 0.024)),
+              borderSide: BorderSide(width: 1, color: grey.withOpacity(0.1)),
+            ),
            
             isDense: true,
             hintText: "Email ID / Employee ID",
@@ -25,15 +30,18 @@ class InputField extends StatelessWidget {
           ),
         ),
         SizedBox(
-          height: 20,
+          height: Device.height * 0.02,
         ),
         TextField(
           decoration: InputDecoration(
-            contentPadding: EdgeInsets.all(40),
+            contentPadding: EdgeInsets.symmetric(
+              horizontal: Device.height*0.024,
+              vertical: Device.height*0.036,
+            ),
             enabledBorder: OutlineInputBorder(
-     borderRadius: BorderRadius.all(Radius.circular(30)),
-     borderSide: BorderSide(width: 1,color: grey.withOpacity(0.2)),
-   ),
+            borderRadius: BorderRadius.all(Radius.circular(Device.height*0.024)),
+            borderSide: BorderSide(width: 1,color: grey.withOpacity(0.2)),
+          ),
             
             hintText: "Password",
             hintStyle:

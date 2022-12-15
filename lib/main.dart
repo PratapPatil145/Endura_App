@@ -13,6 +13,7 @@ void main(List<String> args) {
       title: 'Pratap',
       
       home:LoginPage(),
+      debugShowCheckedModeBanner: false,
     ),
   );
 }

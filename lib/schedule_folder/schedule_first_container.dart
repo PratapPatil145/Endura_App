@@ -134,40 +134,40 @@ class ScheduleFirstContainer extends StatelessWidget {
                       borderRadius: BorderRadius.all(Radius.circular(25)),
                       color: primary.withOpacity(0.2)),
                 ),
-                Container(
-                  padding: EdgeInsets.all(25),
-                  child: Column(
-                    children: [
-                      Text(
-                        "03",
-                        style: TextStyle(
-                          color: white,
-                          fontSize: 30,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      Text(
-                        "Mar",
-                        style: TextStyle(
-                          color: white,
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      Text(
-                        "Thu",
-                        style: GoogleFonts.mulish(
-                          color: white,
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-                  ),
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.all(Radius.circular(25)),
-                      color: primary.withOpacity(0.2)),
-                ),
+                // Container(
+                //   padding: EdgeInsets.all(25),
+                //   child: Column(
+                //     children: [
+                //       Text(
+                //         "03",
+                //         style: TextStyle(
+                //           color: white,
+                //           fontSize: 30,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //       Text(
+                //         "Mar",
+                //         style: TextStyle(
+                //           color: white,
+                //           fontSize: 25,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //       Text(
+                //         "Thu",
+                //         style: GoogleFonts.mulish(
+                //           color: white,
+                //           fontSize: 25,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ],
+                //   ),
+                //   decoration: BoxDecoration(
+                //       borderRadius: BorderRadius.all(Radius.circular(25)),
+                //       color: primary.withOpacity(0.2)),
+                // ),
               ],
             ),
           ),

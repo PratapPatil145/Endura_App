@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:indura_app/cofig/device.dart';
 import 'package:indura_app/colors/colors_font.dart';
 
 class Header extends StatelessWidget {
@@ -16,18 +17,29 @@ class Header extends StatelessWidget {
         children:  <Widget>[
           Text(
             "Hello! Welcome ",
-            style: GoogleFonts.mulish(color:grey, fontSize:45,fontWeight: FontWeight.bold,),
+            style: GoogleFonts.mulish(
+              color:grey, 
+              fontSize: Device.height*0.05,
+              fontWeight: FontWeight.bold,
+            ),
           ),
            Text(
             "to Endura",
-            style: GoogleFonts.mulish(color: grey, fontSize: 45,fontWeight: FontWeight.bold),
+            style: GoogleFonts.mulish(
+              color: grey, 
+              fontSize: Device.height*0.05,
+              fontWeight: FontWeight.bold),
           ),
           SizedBox(
-            height: 40,
+            height: Device.height*0.04,
           ),
           Text(
             "Login to your account",
-            style: GoogleFonts.mulish(color:grey.withOpacity(0.5), fontSize: 20,fontWeight: FontWeight.bold),
+            style: GoogleFonts.mulish(
+              color:grey.withOpacity(0.5), 
+              fontSize: Device.height*0.022,
+              fontWeight: FontWeight.bold
+            ),
           ),
           
          
